@@ -163,6 +163,14 @@ footer {
 
 #conf-key-facts {
   margin-bottom: 10px;
+  padding: .2rem 0;
+  border-top: 1px solid rgba(52, 58, 64, 0.2);
+  border-bottom: 1px solid rgba(52, 58, 64, 0.2);
+
+}
+
+#conf-key-facts > div{
+  margin: .3rem 0;
 }
 
 .conf-sub {

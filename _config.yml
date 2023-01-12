@@ -1,9 +1,10 @@
-title: AI Conference Deadlines
+title: Healthcare Domain Conference Deadlines
 description: Displays Healthcare domain conferences deadline
 author: 
 
 domain: ""
 baseurl: ""
+copyurl: "http://127.0.0.1:4000"
 
 twitter_hashtag: 
 github_username: openlifescience-ai
