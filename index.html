@@ -122,13 +122,16 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-12">
+              <div class="col-12 col-sm-6">
                 {% for sub in conf.sub %}
                 <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
                 {% endfor %}
               </div>
+              <div class="col-12 col-sm-6 share-cnt">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="Countdown to the #{{ conf.title }}{{ conf.year }} deadline!" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <div class="share-url" data-url="{{site.baseurl}}/conference?id={{ conf.id }}"><img src="{{site.baseurl}}/static/img/share-solid.svg" height=10 alt="Share link button" /><span>Share</span></div>
+              </div>
             </div>
-            <hr>
           </div>
           {% endfor %}
         </div>
@@ -251,6 +254,20 @@
 
     });
     {% include google_analytics.js %}
+    </script>
+    <script>
+      const copyBtn = document.querySelectorAll(".share-url");
+      copyBtn.forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          const url = e.currentTarget.dataset.url;
+          navigator.clipboard.writeText(url);
+          e.currentTarget.querySelector("span").innerText = "URL Copied";
+          setTimeout(() => {
+            btn.querySelector("span").innerText = "Share";
+          }, 4000)
+        })
+      })
+        
     </script>
   </body>
 </html>

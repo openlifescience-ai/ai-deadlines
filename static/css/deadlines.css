@@ -44,6 +44,10 @@ h3 {
   line-height: 25px;
 }
 
+.header-container .header-icons{
+  justify-content: flex-end !important;
+}
+
 .page-header {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -248,6 +252,48 @@ footer {
 
 .badge-danger {
   background-color: #bb2d3b;
+}
+
+.ConfItem{
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1px solid rgba(52, 58, 64, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.confItem > div:nth-child(2) > div:first-child {
+  border-right: 1px solid rgba(52, 58, 64, 0.2);
+}
+
+.share-cnt{
+  display: flex;
+  align-items: center;
+}
+
+.share-cnt > div{
+  margin: 0 .5rem;
+}
+
+.share-cnt .share-url{
+  padding: .3rem;
+  border: 2px solid rgb(36, 101, 191);
+  border-radius: 1rem;
+  height: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: .8rem;
+  display: flex;
+  align-items: center;
+}
+
+.share-cnt .share-url:hover{
+  background-color: rgba(36, 101, 191, 0.6);
+
+}
+
+.share-cnt .share-url img{
+ margin: 0 .2rem 0 0;
 }
 
 @media only screen and (max-width: 768px) {
