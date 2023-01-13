@@ -166,14 +166,13 @@ footer {
   padding: .2rem 0;
   border-top: 1px solid rgba(52, 58, 64, 0.2);
   border-bottom: 1px solid rgba(52, 58, 64, 0.2);
-
 }
 
 #conf-key-facts > div{
   margin: .3rem 0;
 }
 
-.conf-sub {
+.conf-sub, .conf-type {
   color: rgb(36, 101, 191);
   background: rgba(236, 240, 241, 0.7);
   font-size: 13px;
@@ -185,6 +184,10 @@ footer {
 
 .conf-sub::selection {
   background: #0097e6;
+}
+
+.conf-type{
+  background-color: #d4ebf4;
 }
 
 .checkbox input[type="checkbox"]:checked:after {

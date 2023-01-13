@@ -102,6 +102,9 @@
                     <a href="#">{{conf.place}}</a>.
                     {% else %}
                     <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                    {% if conf.hybrid %}
+                    <span> - Hybrid</span>
+                    {% endif %}
                     {% endif %}
                   </span>
                 </div>
@@ -123,6 +126,9 @@
             </div>
             <div class="row">
               <div class="col-12 col-sm-6">
+                {% if conf.type %}
+                <span data-sub="{{conf.type}}" class="conf-type {{conf.type}}-tag">{{conf.type}}</span>
+                {% endif %}
                 {% for sub in conf.sub %}
                 <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
                 {% endfor %}
