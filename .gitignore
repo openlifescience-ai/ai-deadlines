@@ -4,3 +4,6 @@ vendor
 .vscode
 .DS_Store
 .idea
+venv
+sorted_data.yml
+new.yml

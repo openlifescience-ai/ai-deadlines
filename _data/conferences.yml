@@ -1,42 +1,324 @@
 ---
 
-- title: UAI
+- title: CHIL
   year: 2023
-  id: uai23
-  link: https://www.auai.org/uai2023/
-  deadline: '2023-02-17 23:59:59'
-  timezone: UTC-12
-  place: Pittsburgh, USA
-  date: July 31 - August 04, 2023
-  start: 2023-07-31
-  end: 2023-08-04
-  sub: ML
+  id: CHIL23
+  link: https://chilconference.org
+  deadline: '2023-02-03 11:59:00'
+  timezone: EST
+  hybrid: false
+  place: Cambridge, MA, United States
+  date: June 22 - 24, 2023
+  start: '2023-06-22'
+  end: '2023-06-24'
+  hindex: None
+  sub: NLP
+  type: conference
+  note: CHIL 2023 invites submissions focussed on significant problems affecting health.
+    Specifically, authors are invited to submit 8-10 page papers (with unlimited pages
+    for references). More info <a href="https://www.chilconference.org/call-for-papers.html">here</a>.
 
-- title: RSS
+- title: MLDD
   year: 2023
-  id: rss23
-  link: https://roboticsconference.org/2023
-  deadline: '2023-02-03 23:59:59'
+  id: mldd23
+  link: https://sites.google.com/view/mldd-2023/
+  deadline: '2023-02-10 23:59:00'
   timezone: UTC-12
-  place: Daegu, South Korea
-  date: July 10-14, 2023
-  start: 2023-07-10
-  end: 2023-07-14
-  hindex: 58
-  sub: RO
+  hybrid: false
+  place: online
+  date: 2023
+  start: 2023
+  end: 2023
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: ICLR
 
-- title: IJCAI
+- title: MLHC
   year: 2023
-  id: ijcai23
-  link: https://ijcai-23.org/
-  deadline: '2023-01-18 23:59:59'
+  id: MLHC23
+  link: https://www.mlforhc.org/
+  deadline: '2023-04-12 23:59:00'
   timezone: UTC-12
-  place: Cape Town, South Africa
-  date: August 19-25, 2023
-  start: 2023-08-19
-  end: 2023-08-25
-  hindex: 120
-  sub: ML
-  note: Mandatory abstract deadline on Jan 11, 2023, and supplementary material deadline on Jan 23, 2023. More info <a href='https://ijcai-23.org/'>here</a>.
+  hybrid: false
+  place: Lerner Hall, Columbia University, New York, NY
+  date: August 11 - 12, 2023
+  start: '2023-08-11'
+  end: '2023-08-12'
+  hindex: None
+  sub: NLP
+  type: conference
 
-  
+- title: BioNLP
+  year: 2023
+  id: bionlp23
+  link: https://biolaysumm.org/
+  deadline: '2023-04-24 23:59:00'
+  abstract_deadline: '2023-04-24 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: Toronto, Canada
+  date: July 13 or 14, 2023
+  start: 2023-07-13
+  end: 2023-07-13
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: ACL
+
+- title: Clinical NLP
+  year: 2023
+  id: CLP23
+  link: https://clinical-nlp.github.io/2023/
+  deadline: '2023-04-24 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: Toronto, Canada
+  date: July 13 or 14, 2023
+  start: 2023-07-13
+  end: 2023-07-13
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: ACL
+
+- title: MLDD
+  year: 2022
+  id: mldd22
+  link: https://sites.google.com/view/mldd-workshop-2022
+  abstract_deadline: '2022-03-01 23:59:00'
+  deadline: '2022-03-15 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: online
+  date: 2023
+  start: 2023
+  end: 2023
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: ICLR
+  note: Mandatory abstract deadline on March 01, 2022. More info <a href="https://sites.google.com/view/mldd-workshop-2022/call-for-papers">here</a>.
+
+- title: NLG4H
+  year: 2022
+  id: NLG4H22
+  link: https://nlg4health.uvt.nl/
+  deadline: '2022-04-15 23:59:00'
+  timezone: UTC-12
+  hybrid: true
+  place: Maine, USA
+  date: July 18, 2022
+  start: '2022-07-18'
+  end: '2022-07-18'
+  hindex: None
+  sub: NLP
+  type: workshop
+
+- title: Compo Bio
+  year: 2022
+  id: cb22
+  link: https://icml-compbio.github.io/
+  deadline: '2022-05-13 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: Baltimore, Maryland USA
+  date: July 22, 2022
+  start: '2022-07-22'
+  end: '2022-07-22'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: ICML
+
+- title: SDAIH
+  year: 2022
+  id: sdaih22
+  link: https://hslu-abiz.github.io/sdaih22/
+  deadline: '2022-05-20 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: Vienna
+  date: July 23, 2022
+  start: '2022-07-23'
+  end: '2022-07-23'
+  hindex: None
+  sub: NLP
+  type: workshop
+
+- title: IMLH
+  year: 2022
+  id: imlh22
+  link: https://sites.google.com/view/imlh2022
+  deadline: '2022-05-30 23:59:00'
+  timezone: UTC-12
+  hybrid: true
+  place: Baltimore, Maryland USA
+  date: July 23, 2022
+  start: '2022-07-23'
+  end: '2022-07-23'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: ICML
+
+- title: Healthcare AI and COVID-19
+  year: 2022
+  id: haicov19
+  link: https://healthcare-ai-covid19.github.io/
+  deadline: '2022-05-31 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: Baltimore, Maryland USA
+  date: July 22, 2022
+  start: '2022-07-22'
+  end: '2022-07-22'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: ICML
+
+- title: DSHealth
+  year: 2022
+  id: dshealt22
+  link: https://dshealthkdd.github.io/dshealth-2022/
+  deadline: '2022-06-02 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: Washington DC, U.S.
+  date: Aug 14, 2022
+  start: '2022-08-14'
+  end: '2022-08-14'
+  hindex: None
+  sub: CV
+  type: workshop
+
+- title: Clinical NLP
+  year: 2022
+  id: CLP22
+  link: https://clinical-nlp.github.io/2022/
+  deadline: '2022-06-03 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: Seattle, WA
+  date: July 14, 202
+  start: 2022-07-14
+  end: 2022-07-14
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: NAACL
+
+- title: AIMIA
+  year: 2022
+  id: aimia22
+  link: https://vcmi.inesctec.pt/aimia_eccv/
+  deadline: '2022-07-15 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: online
+  date: Oct 24, 2022
+  start: '2022-10-24'
+  end: '2022-10-24'
+  hindex: None
+  sub: CV
+  type: workshop
+  conf_name: ECCV
+
+- title: ISIC
+  year: 2022
+  id: isic22
+  link: https://workshop2022.isic-archive.com/
+  deadline: '2022-07-17 11:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: online
+  date: Oct 23, 2022
+  start: '2022-10-23'
+  end: '2022-10-23'
+  hindex: None
+  sub: CV
+  type: wrokshop
+
+- title: ML4H
+  year: 2022
+  id: ml4h22
+  link: https://ml4health.github.io/2022/
+  deadline: '2022-09-01 23:59:00'
+  abstract_deadline: '2022-09-01 23:59:00'
+  timezone: UTC-12
+  hybrid: true
+  place: New Orleans, Louisiana
+  date: Nov 28, 2022
+  start: 2022-11-28
+  end: 2022-11-28
+  hindex: None
+  sub: NLP
+  type: workshop
+  note: Submitted papers should describe innovative machine learning research focused
+    on relevant problems in health and medicine. More info <a href="https://ml4health.github.io/2022/call_for_participation.html">here</a>.
+
+- title: TS4H
+  year: 2022
+  id: ts4h22
+  link: https://timeseriesforhealth.github.io/
+  deadline: '2022-09-30 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: New Orleans, LA, USA
+  date: Dec 2, 2022
+  start: '2022-12-02'
+  end: '2022-12-02'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: NeurIPS
+
+- title: MLSB
+  year: 2022
+  id: mlsb22
+  link: https://www.mlsb.io/
+  deadline: '2022-10-01 23:59:00'
+  timezone: UTC-12
+  hybrid: true
+  place: New Orleans, LA, USA
+  date: Dec 3, 2022
+  start: '2022-12-03'
+  end: '2022-12-03'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: NeurIPS
+
+- title: MED-NEURIPS
+  year: 2022
+  id: med22
+  link: https://sites.google.com/view/med-neurips-2022?pli=1
+  deadline: '2022-10-03 23:59:00'
+  timezone: UTC-12
+  hybrid: true
+  place: New Orleans, LA, USA
+  date: Dec 2, 2022
+  start: '2022-12-02'
+  end: '2022-12-02'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: NeurIPS
+  note: Submitting an abstract is an ideal way of engaging with the workshop and to
+    showcase research in the area of machine learning for medical imaging.
+
+- title: W3PHIAI
+  year: 2023
+  id: w3phaiai23
+  link: http://w3phiai2023.w3phi.com/index.html
+  deadline: '2022-11-15 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: Washington, DC, USA
+  date: Feb 13 - 14, 2023
+  start: '2023-02-13'
+  end: '2023-02-14'
+  hindex: None
+  sub: NLP
+  type: workshop

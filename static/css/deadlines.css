@@ -172,7 +172,7 @@ footer {
   margin: .3rem 0;
 }
 
-.conf-sub, .conf-type {
+.conf-sub, .conf-type, .ws-conf-name {
   color: rgb(36, 101, 191);
   background: rgba(236, 240, 241, 0.7);
   font-size: 13px;
@@ -182,8 +182,14 @@ footer {
   font-weight: 300;
 }
 
+.ws-conf-name{
+  background-color: rgb(187, 208, 244);
+  z-index: 1;
+}
+
+
 .conf-sub::selection {
-  background: #0097e6;
+  background: #b3e5f9;
 }
 
 .conf-type{
@@ -265,15 +271,16 @@ footer {
   background-color: #bb2d3b;
 }
 
-.ConfItem{
+.conf-item{
   margin: 1rem 0;
   padding: 1rem;
   border-radius: .5rem;
   border: 1px solid rgba(52, 58, 64, 0.2);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: relative;
 }
 
-.confItem > div:nth-child(2) > div:first-child {
+.conf-item .br {
   border-right: 1px solid rgba(52, 58, 64, 0.2);
 }
 

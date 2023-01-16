@@ -66,7 +66,7 @@
         <div id="confs">
         <div id="coming_confs">
           {% for conf in site.data.conferences %}
-          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
+          <div id="{{conf.id}}" class="conf-item {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-6">
                   <span class="conf-title">
@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="row">
-              <div class="col-12 col-sm-6">
+              <div class="br col-12 col-sm-6">
                 <div class="meta">
                   <span class="conf-date">{{conf.date}}.</span>
                   <span class="conf-place">
@@ -126,6 +126,9 @@
             </div>
             <div class="row">
               <div class="col-12 col-sm-6">
+                {% if conf.conf_name %}
+                  <span class="ws-conf-name" title="{{conf.conf_name}}">{{conf.conf_name}}</span>
+                {% endif %}
                 {% if conf.type %}
                 <span data-sub="{{conf.type}}" class="conf-type {{conf.type}}-tag">{{conf.type}}</span>
                 {% endif %}
