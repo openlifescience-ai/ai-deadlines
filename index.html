@@ -216,6 +216,10 @@
             date: confDate.toDate(),
             duration: 60,
           })
+          console.log(myCalendar)
+          console.log(myCalendar)
+          var calImg = myCalendar.querySelector("img");
+          calImg.src="{{site.baseurl}}/static/img/calendar.png";
           document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
           // check if date has passed, add 'past' class to it
