@@ -321,7 +321,7 @@ body[data-theme="dark"] .conf-sub, body[data-theme="dark"] .conf-type, body[data
   background-color: #bb2d3b;
 }
 
-.conf-item{
+.confItem{
   margin: 1rem 0;
   padding: 1rem;
   border-radius: .5rem;
@@ -330,7 +330,7 @@ body[data-theme="dark"] .conf-sub, body[data-theme="dark"] .conf-type, body[data
   position: relative;
 }
 
-.conf-item .br {
+.confItem .br {
   border-right: 1px solid rgba(52, 58, 64, 0.2);
 }
 
@@ -352,10 +352,12 @@ body[data-theme="dark"] .conf-sub, body[data-theme="dark"] .conf-type, body[data
   font-size: .8rem;
   display: flex;
   align-items: center;
+  box-shadow: var(--shadow);
+
 }
 
 .share-cnt .share-url:hover{
-  box-shadow: var(--shadow);
+  background-color: rgba(106, 106, 106, 0.1);
 }
 
 .share-cnt .share-url .share-ic{
