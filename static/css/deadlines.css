@@ -1,8 +1,28 @@
+:root{
+  --primary: #FFF;
+  --secondary: #000;
+  --light: #FFF;
+  --dark: #343a40;
+  --shadow: 2px 2px 4px rgb(218, 217, 217), -2px -2px 4px #d7dadd;
+}
+
+[data-theme="dark"] {
+  --primary: #343a40;
+  --secondary: #FFF;
+  --light: #000;
+  --dark: #FFF;
+  --shadow: 3px 3px 6px #222, -3px -3px 6px #484a4c;
+  --type-box: inset 2px 2px 5px rgb(67, 67, 67), inset -3px -3px 7px #454a51;
+}
+
 body {
   font-size: 16px;
   line-height: 23px;
   font-weight: 300;
   -webkit-font-smoothing: subpixel-antialiased;
+  background-color: var(--primary);
+  color: var(--secondary);
+  transition: all .3s ease;
 }
 
 body *::selection {
@@ -44,6 +64,24 @@ h3 {
   line-height: 25px;
 }
 
+.header{
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.theme-ic{
+  width: 20px;
+  cursor: pointer;
+}
+
+.theme-ic.light{
+  fill: var(--light);
+}
+
+.header .navbar-brand{
+  color: var(--light);
+}
+
 .header-container .header-icons{
   justify-content: flex-end !important;
 }
@@ -59,6 +97,10 @@ h3 {
 
 #conf-full-name {
   margin-bottom: 5px;
+}
+
+.conf-web-ic{
+  fill: var(--dark);
 }
 
 p.authors {
@@ -175,6 +217,7 @@ footer {
 .conf-sub, .conf-type, .ws-conf-name {
   color: rgb(36, 101, 191);
   background: rgba(236, 240, 241, 0.7);
+  border-radius: .2rem;
   font-size: 13px;
   padding: 3px 5px;
   margin-right: 8px;
@@ -182,11 +225,11 @@ footer {
   font-weight: 300;
 }
 
+
 .ws-conf-name{
   background-color: rgb(187, 208, 244);
   z-index: 1;
 }
-
 
 .conf-sub::selection {
   background: #b3e5f9;
@@ -196,6 +239,11 @@ footer {
   background-color: #d4ebf4;
 }
 
+body[data-theme="dark"] .conf-sub, body[data-theme="dark"] .conf-type, body[data-theme="dark"] .ws-conf-name{
+  background-color: #2f2f2f !important;
+  color: white !important;
+  box-shadow: var(--shadow);
+}
 .checkbox input[type="checkbox"]:checked:after {
   background-color: #0097e6;
   border-color: #0097e6;
@@ -251,6 +299,8 @@ footer {
 }
 
 .twitter-github-icons {
+  display: flex;
+  align-items: center;
   line-height: 16px;
 }
 
@@ -276,7 +326,7 @@ footer {
   padding: 1rem;
   border-radius: .5rem;
   border: 1px solid rgba(52, 58, 64, 0.2);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: var(--shadow);
   position: relative;
 }
 
@@ -295,9 +345,8 @@ footer {
 
 .share-cnt .share-url{
   padding: .3rem;
-  border: 2px solid rgb(36, 101, 191);
   border-radius: 1rem;
-  height: 20px;
+  height: 23px;
   box-sizing: border-box;
   cursor: pointer;
   font-size: .8rem;
@@ -306,12 +355,13 @@ footer {
 }
 
 .share-cnt .share-url:hover{
-  background-color: rgba(36, 101, 191, 0.6);
-
+  box-shadow: var(--shadow);
 }
 
-.share-cnt .share-url img{
- margin: 0 .2rem 0 0;
+.share-cnt .share-url .share-ic{
+  width: 20px;
+  fill: #818284;
+  margin: 0 .2rem 0 0;
 }
 
 @media only screen and (max-width: 768px) {

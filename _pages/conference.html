@@ -150,6 +150,8 @@ permalink:  /conference/
                   date: confDeadline.toDate(),
                   duration: 60,
                 })
+                var calImg = conferenceDeadlineCalendar.querySelector("img");
+                calImg.src="{{site.baseurl}}/static/img/calendar.png";
                 document.querySelector('#conference-deadline').appendChild(conferenceDeadlineCalendar);
 
                 // render countdown timer
