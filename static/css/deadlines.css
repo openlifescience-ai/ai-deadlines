@@ -4,6 +4,7 @@
   --light: #FFF;
   --dark: #343a40;
   --shadow: 2px 2px 4px rgb(218, 217, 217), -2px -2px 4px #d7dadd;
+  --line-color: 1px solid rgba(52, 58, 64, 0.2);
 }
 
 [data-theme="dark"] {
@@ -13,6 +14,7 @@
   --dark: #FFF;
   --shadow: 3px 3px 6px #222, -3px -3px 6px #484a4c;
   --type-box: inset 2px 2px 5px rgb(67, 67, 67), inset -3px -3px 7px #454a51;
+  --line-color: 1px solid rgba(182, 184, 185, 0.2);
 }
 
 body {
@@ -99,7 +101,7 @@ h3 {
   margin-bottom: 5px;
 }
 
-.conf-web-ic{
+.conf-ic{
   fill: var(--dark);
 }
 
@@ -198,7 +200,7 @@ footer {
 
 #conf-timer {
   font-size: 72px;
-  color: #444;
+  color: var(--dark);
   margin-top: 40px;
   margin-bottom: 0.5em;
 }
@@ -206,8 +208,8 @@ footer {
 #conf-key-facts {
   margin-bottom: 10px;
   padding: .2rem 0;
-  border-top: 1px solid rgba(52, 58, 64, 0.2);
-  border-bottom: 1px solid rgba(52, 58, 64, 0.2);
+  border-top: var(--line-color);
+  border-bottom: var(--line-color);
 }
 
 #conf-key-facts > div{
@@ -325,13 +327,14 @@ body[data-theme="dark"] .conf-sub, body[data-theme="dark"] .conf-type, body[data
   margin: 1rem 0;
   padding: 1rem;
   border-radius: .5rem;
-  border: 1px solid rgba(52, 58, 64, 0.2);
+  border: var(--line-color);
   box-shadow: var(--shadow);
   position: relative;
 }
 
 .confItem .br {
-  border-right: 1px solid rgba(52, 58, 64, 0.2);
+  border-right: var(--line-color);
+  margin-bottom: .5rem;
 }
 
 .share-cnt{
