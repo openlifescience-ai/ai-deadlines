@@ -3,9 +3,10 @@
 - title: CHIL
   year: 2023
   id: CHIL23
-  link: https://chilconference.org
-  deadline: '2023-02-03 11:59:00'
-  timezone: EST
+  link: https://www.chilconference.org/
+  paperslink: https://proceedings.mlr.press/v174/
+  deadline: '2023-02-03 23:59:00'
+  timezone: UTC-12
   hybrid: false
   place: Cambridge, MA, United States
   date: June 22 - 24, 2023
@@ -86,6 +87,7 @@
   year: 2022
   id: mldd22
   link: https://sites.google.com/view/mldd-workshop-2022
+  paperslink: https://sites.google.com/view/mldd-workshop-2022/accepted-papers
   abstract_deadline: '2022-03-01 23:59:00'
   deadline: '2022-03-15 23:59:00'
   timezone: UTC-12
@@ -99,6 +101,22 @@
   type: workshop
   conf_name: ICLR
   note: Mandatory abstract deadline on March 01, 2022. More info <a href="https://sites.google.com/view/mldd-workshop-2022/call-for-papers">here</a>.
+
+- title: CLPsych
+  year: 2022
+  id: clpsych22
+  link: https://clpsych.org/
+  deadline: '2022-04-12 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: Seattle, Washington
+  date: July 15, 2022
+  start: '2022-07-15'
+  end: '2022-07-15'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: NAACL
 
 - title: NLG4H
   year: 2022
@@ -119,6 +137,7 @@
   year: 2022
   id: cb22
   link: https://icml-compbio.github.io/
+  paperslink: https://icml-compbio.github.io/#papers
   deadline: '2022-05-13 23:59:00'
   timezone: UTC-12
   hybrid: false
@@ -135,6 +154,7 @@
   year: 2022
   id: sdaih22
   link: https://hslu-abiz.github.io/sdaih22/
+  paperslink: https://hslu-abiz.github.io/sdaih22/#acceptedpapers
   deadline: '2022-05-20 23:59:00'
   timezone: UTC-12
   hybrid: false
@@ -182,6 +202,7 @@
   year: 2022
   id: dshealt22
   link: https://dshealthkdd.github.io/dshealth-2022/
+  paperslink: https://dshealthkdd.github.io/dshealth-2022/#papers
   deadline: '2022-06-02 23:59:00'
   timezone: UTC-12
   hybrid: false
@@ -190,7 +211,7 @@
   start: '2022-08-14'
   end: '2022-08-14'
   hindex: None
-  sub: CV
+  sub: null
   type: workshop
 
 - title: Clinical NLP
@@ -244,6 +265,7 @@
   year: 2022
   id: ml4h22
   link: https://ml4health.github.io/2022/
+  paperslink: https://ml4health.github.io/2021/papers.html
   deadline: '2022-09-01 23:59:00'
   abstract_deadline: '2022-09-01 23:59:00'
   timezone: UTC-12
@@ -262,6 +284,7 @@
   year: 2022
   id: ts4h22
   link: https://timeseriesforhealth.github.io/
+  paperslink: https://timeseriesforhealth.github.io/accepted_papers
   deadline: '2022-09-30 23:59:00'
   timezone: UTC-12
   hybrid: false
@@ -278,6 +301,7 @@
   year: 2022
   id: mlsb22
   link: https://www.mlsb.io/
+  paperslink: https://www.mlsb.io/#accepted
   deadline: '2022-10-01 23:59:00'
   timezone: UTC-12
   hybrid: true
