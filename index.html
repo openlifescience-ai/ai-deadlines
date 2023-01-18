@@ -245,18 +245,15 @@
 
         // Sort coming_confs and past_confs
         $("#coming_confs .ConfItem").sort(function (a, b) {
-          console.log('1st')
           return $(b).attr('diff') - $(a).attr('diff');
         }).appendTo($("#coming_confs"));
 
         function sortPastEvents() {
           if ($("#sort-order-checkbox input").is(":checked")) {
-            console.log('h2ns')
             $("#past_confs .ConfItem").sort(function (a, b) {
               return $(a).attr('diff') - $(b).attr('diff');
             }).appendTo($("#past_confs"));
           } else {
-            console.log('3rd')
             $("#past_confs .ConfItem").sort(function (a, b) {
               return $(b).attr('diff') - $(a).attr('diff');
             }).appendTo($("#past_confs"));
