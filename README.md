@@ -1,4 +1,4 @@
-## AI Deadlines
+## Healthcare Domain Conference Deadlines
 
 Countdown timers to keep track of a bunch of CV/NLP/ML conference deadlines in Healthcare Domain.
 
