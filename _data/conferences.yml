@@ -36,6 +36,7 @@
 - title: CHIL
   year: 2023
   id: CHIL23
+  full_name: Conference on Health, Inference, and Learning
   link: https://www.chilconference.org/
   paperslink: https://proceedings.mlr.press/v174/
   deadline: '2023-02-03 23:59:00'
@@ -55,6 +56,7 @@
 - title: MLDD
   year: 2023
   id: mldd23
+  full_name: Machine Learning for Drug Discovery
   link: https://sites.google.com/view/mldd-2023/
   deadline: '2023-02-10 23:59:00'
   timezone: UTC-12
@@ -72,6 +74,7 @@
   year: 2023
   id: MLHC23
   link: https://www.mlforhc.org/
+  full_name: Machine Learning for Healthcare
   deadline: '2023-04-12 23:59:00'
   timezone: UTC-12
   hybrid: false
@@ -86,6 +89,7 @@
 - title: MLDD
   year: 2022
   id: mldd22
+  full_name: Machine Learning for Drug Discovery
   link: https://sites.google.com/view/mldd-workshop-2022
   paperslink: https://sites.google.com/view/mldd-workshop-2022/accepted-papers
   abstract_deadline: '2022-03-01 23:59:00'
@@ -153,6 +157,7 @@
 - title: SDAIH
   year: 2022
   id: sdaih22
+  full_name: Scarce Data in Artificial Intelligence for Healthcare
   link: https://hslu-abiz.github.io/sdaih22/
   paperslink: https://hslu-abiz.github.io/sdaih22/#acceptedpapers
   deadline: '2022-05-20 23:59:00'
@@ -169,6 +174,7 @@
 - title: IMLH
   year: 2022
   id: imlh22
+  full_name: Interpretable Machine Learning in Healthcare
   link: https://sites.google.com/view/imlh2022
   deadline: '2022-05-30 23:59:00'
   timezone: UTC-12
@@ -200,7 +206,8 @@
 
 - title: DSHealth
   year: 2022
-  id: dshealt22
+  id: dshealth22
+  full_name: Data Science for Healthcare
   link: https://dshealthkdd.github.io/dshealth-2022/
   paperslink: https://dshealthkdd.github.io/dshealth-2022/#papers
   deadline: '2022-06-02 23:59:00'
@@ -233,6 +240,7 @@
 - title: AIMIA
   year: 2022
   id: aimia22
+  full_name: AI-ENABLED MEDICAL IMAGE ANALYSIS
   link: https://vcmi.inesctec.pt/aimia_eccv/
   deadline: '2022-07-15 23:59:00'
   timezone: UTC-12
@@ -264,6 +272,7 @@
 - title: ML4H
   year: 2022
   id: ml4h22
+  full_name: Machine Learning for Health
   link: https://ml4health.github.io/2022/
   paperslink: https://ml4health.github.io/2021/papers.html
   deadline: '2022-09-01 23:59:00'
@@ -283,6 +292,7 @@
 - title: TS4H
   year: 2022
   id: ts4h22
+  full_name: Learning from Time Series for Health
   link: https://timeseriesforhealth.github.io/
   paperslink: https://timeseriesforhealth.github.io/accepted_papers
   deadline: '2022-09-30 23:59:00'
@@ -300,6 +310,7 @@
 - title: MLSB
   year: 2022
   id: mlsb22
+  full_name: Machine Learning in Structural Biology
   link: https://www.mlsb.io/
   paperslink: https://www.mlsb.io/#accepted
   deadline: '2022-10-01 23:59:00'
@@ -346,3 +357,36 @@
   hindex: None
   sub: NLP
   type: workshop
+
+- title: LOUHI
+  year: 2022
+  id: louhi22
+  link: https://louhi2022.fbk.eu/
+  deadline: '2022-09-14 23:59:00'
+  timezone: UTC-12
+  hybrid: false
+  place: Abu Dhabi
+  date: Dec 07, 2022
+  start: '2022-12-07'
+  end: '2022-12-07'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: EMNLP
+
+- title: SMM4H
+  year: 2022
+  id: smm4h22
+  full_name: Social Media Mining for Health
+  link: https://healthlanguageprocessing.org/smm4h-2022/
+  deadline: '2022-08-20 23:59:00'
+  timezone: UTC-12
+  hybrid: true
+  place: Gyeongju, Republic of Korea
+  date: Oct 17, 2022
+  start: '2022-10-17'
+  end: '2022-10-17'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: coling
