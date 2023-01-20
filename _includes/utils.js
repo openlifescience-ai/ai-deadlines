@@ -65,22 +65,12 @@ themeToggle.addEventListener("click", handleToggleTheme);
 
 function toggleTheme(themeValue){
     const nav = document.querySelector("nav");
-    // const inverseTheme = themeValue
-    if(themeValue === "dark"){
-      body.dataset.theme = "dark";
-      themeToggle.innerHTML = lightIc;
-      nav.classList.remove("navbar-dark");
-      nav.classList.add("navbar-light");
-      localStorage.setItem("theme", "dark");
-
-    }
-    else{
-      body.dataset.theme = "light";
-      themeToggle.innerHTML = darkIc;
-      nav.classList.remove("navbar-light");
-      nav.classList.add("navbar-dark");
-      localStorage.setItem("theme", "light");
-    }
+    const inverseTheme = themeValue === "dark" ? "light" : "dark";
+    body.dataset.theme = themeValue;
+    themeToggle.innerHTML = themeValue === "dark" ? lightIc : darkIc;
+    nav.classList.remove(`navbar-${themeValue}`);
+    nav.classList.add(`navbar-${inverseTheme}`);
+    localStorage.setItem("theme", themeValue);
 }
 
 function handleToggleTheme(e){

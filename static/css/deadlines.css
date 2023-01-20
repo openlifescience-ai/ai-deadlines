@@ -336,7 +336,11 @@ body[data-theme="dark"] .conf-sub, body[data-theme="dark"] .conf-type, body[data
 
 .confItem .br {
   border-right: var(--line-color);
-  margin-bottom: .5rem;
+  /* margin-bottom: .5rem; */
+}
+
+.conf-box-cnt, .conf-share-cnt{
+  margin-top: .5rem;
 }
 
 .share-cnt{
