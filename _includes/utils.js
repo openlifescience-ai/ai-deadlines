@@ -65,6 +65,7 @@ themeToggle.addEventListener("click", handleToggleTheme);
 
 function toggleTheme(themeValue){
     const nav = document.querySelector("nav");
+    // const inverseTheme = themeValue
     if(themeValue === "dark"){
       body.dataset.theme = "dark";
       themeToggle.innerHTML = lightIc;
@@ -87,7 +88,4 @@ function handleToggleTheme(e){
   toggleTheme(theme);
 }
 
-window.addEventListener("load", (e) => {
-  const theme = localStorage.getItem("theme") ?? 'dark';
-  toggleTheme(theme)
-})
+toggleTheme(body.dataset.theme);
