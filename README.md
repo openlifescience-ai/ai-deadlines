@@ -43,4 +43,4 @@ To add or update a deadline:
 - Send a pull request
 
 
-Thanks to Abhishek Das for building the original site, ai-deadlin.es!
+This initiative is inspired by Abhishek Das for <a href="aideadlin.es">aideadlin.es</a>.
