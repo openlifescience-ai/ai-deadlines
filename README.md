@@ -41,3 +41,6 @@ To add or update a deadline:
       note: Important
     ```
 - Send a pull request
+
+
+Thanks to Abhishek Das for building the original site, ai-deadlin.es!
