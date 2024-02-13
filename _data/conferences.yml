@@ -1,20 +1,20 @@
 ---
-- title: SMM4H
+- title: The 9th Social Media Mining for Health Research and Applications Workshop
   year: 2024
   id: smm4h24
   full_name: The 9th Social Media Mining for Health Research and Applications Workshop
   link: https://healthlanguageprocessing.org/smm4h-2024/
   deadline: '2024-05-17 23:59:00'
-  abstract_deadline: '2024-05-17 23:59:00'
   timezone: UTC
   hybrid: false
   place: Bangkok, Thailand
   date: Aug 15, 2024
-  start: 2024-08-15
-  end: 2024-08-15
+  start: '2024-08-15'
+  end: '2024-08-15'
   hindex: None
-  sub: Health, NLP
+  sub: NLP
   type: workshop
+  conf_name: ACL 2024
   note: The workshop, collocated at ACL 2024, focuses on Large Language Models (LLMs) and Generalizability for Social Media NLP. Submission site opens on Jan 15, 2024. Camera-ready papers are due by July 1, 2024. More info <a href="https://healthlanguageprocessing.org/smm4h-2024/">here</a>.
 
 - title: TS4H
