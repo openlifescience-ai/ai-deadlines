@@ -17,132 +17,109 @@
   conf_name: ACL 2024
   note: The workshop, collocated at ACL 2024, focuses on Large Language Models (LLMs) and Generalizability for Social Media NLP. Submission site opens on Jan 15, 2024. Camera-ready papers are due by July 1, 2024. More info <a href="https://healthlanguageprocessing.org/smm4h-2024/">here</a>.
 
-- title: TS4H
+- title: Learning from Time Series for Health
   year: 2024
   id: ts4h24
   full_name: Learning from Time Series for Health
   link: https://timeseriesforhealth.github.io/
   deadline: '2024-02-14 23:59:00'
-  abstract_deadline: '2024-02-14 23:59:00'
   timezone: AoE
   hybrid: false
   place: Vienna, Austria
   date: May 11, 2024
-  start: 2024-05-11
-  end: 2024-05-11
+  start: '2024-05-11'
+  end: '2024-05-11'
   hindex: None
-  sub: Health, Time Series, ML
+  sub: ML
   type: workshop
+  conf_name: ICLR 2024
   note: The workshop, at ICLR 2024, invites papers on learning from time series in healthcare. Key themes include Behavioral Health and Foundation Models. Submissions up to 4 pages long (excluding references), presented as posters. No formal proceedings, but accepted papers will be public. Double-blind review process. More info <a href="https://timeseriesforhealth.github.io/">here</a>.
 
-- title: Clinical NLP Workshop
+- title: The 6th Clinical Natural Language Processing Workshop
   year: 2024
   id: clinicalnlp24
   full_name: The 6th Clinical Natural Language Processing Workshop
   link: https://clinical-nlp.github.io/2024/
   deadline: '2024-03-19 23:59:00'
-  abstract_deadline: '2024-03-19 23:59:00'
   timezone: UTC-12
   hybrid: false
   place: Mexico City, Mexico
   date: June 20 or 21, 2024
-  start: 2024-06-20
-  end: 2024-06-21
+  start: '2024-06-20'
+  end: '2024-06-21'
   hindex: None
-  sub: NLP, Clinical
+  sub: NLP
   type: workshop
+  conf_name: NAACL 2024
   note: The workshop, at NAACL 2024, focuses on advancements in Clinical Natural Language Processing. Includes a shared task with specific dates for registration, dataset release, submission deadlines, and notification of results. More info <a href="https://clinical-nlp.github.io/2024/">here</a>.
 
-- title: MLHC
+- title: Machine Learning for Healthcare
   year: 2024
   id: mlhc24
   full_name: Machine Learning for Healthcare
   link: https://www.mlforhc.org/paper-submission
   deadline: '2024-04-09 23:59:00'
-  abstract_deadline: '2024-04-09 23:59:00'
   timezone: AoE
   hybrid: false
   place: TBD
   date: Aug 16-17, 2024
-  start: 2024-08-16
-  end: 2024-08-17
+  start: '2024-08-16'
+  end: '2024-08-17'
   hindex: None
-  sub: ML, Healthcare
+  sub: ML
   type: conference
   note: MLHC 2024 invites submissions for both a research track and a clinical abstract track. The conference focuses on leveraging machine learning for healthcare insights, with a submission deadline on April 9, 2024. More info <a href="https://www.mlforhc.org/paper-submission">here</a>.
 
-- title: CHIL
+- title: Conference on Health, Inference, and Learning
   year: 2024
   id: chil24
   full_name: Conference on Health, Inference, and Learning
   link: https://chilconference.org/index.html
   deadline: '2024-01-04 23:59:00'
-  abstract_deadline: '2024-01-04 23:59:00'
   timezone: AoE
   hybrid: true
   place: New York City, NY, United States
   date: Jun 20-21, 2024
-  start: 2024-06-20
-  end: 2024-06-21
+  start: '2024-06-20'
+  end: '2024-06-21'
   hindex: None
-  sub: Health, Machine Learning, Health Policy, Causality, Fairness
+  sub: ML
   type: conference
   note: CHIL 2024 encourages cross-disciplinary collaboration among clinicians, researchers in machine learning, health policy, causality, fairness, and related areas. More info <a href="https://chilconference.org/index.html">here</a>.
 
-- title: FMV-CVPR
+- title: CVPR 2024 Workshop on Foundation Models for Medical Vision
   year: 2024
   id: fmv-cvpr24
   full_name: CVPR 2024 Workshop on Foundation Models for Medical Vision
   link: https://fmv-cvpr24workshop.github.io/
   deadline: '2024-03-01 23:59:00'
-  abstract_deadline: '2024-03-01 23:59:00'
   timezone: AoE
   hybrid: false
   place: Seattle, WA, United States
   date: June 23, 2024
-  start: 2024-06-23
-  end: 2024-06-23
+  start: '2024-06-23'
+  end: '2024-06-23'
   hindex: None
-  sub: Medical Vision, AI, Machine Learning
+  sub: CV
   type: workshop
   note: The workshop focuses on the application and challenges of foundation models in medical imaging. It aims to bridge the gap between cutting-edge AI technologies and clinical implementation in medical diagnostics and patient care. More info <a href="https://fmv-cvpr24workshop.github.io/">here</a>.
 
-- title: MLGenX
+- title: Machine Learning for Genomics Explorations at ICLR
   year: 2024
   id: mlgenx24
   full_name: Machine Learning for Genomics Explorations at ICLR
   link: https://mlgenx.github.io/
   deadline: '2024-02-08 23:59:00'
-  abstract_deadline: '2024-02-08 23:59:00'
   timezone: UTC-12
   hybrid: false
   place: TBD
   date: May 11, 2024
-  start: 2024-05-11
-  end: 2024-05-11
+  start: '2024-05-11'
+  end: '2024-05-11'
   hindex: None
-  sub: ML, Genomics
+  sub: ML
   type: workshop
   note: MLGenX aims to bridge AI and functional genomics, focusing on target identification. Topics include foundation models for genomics, biological sequence design, and interpretability. Accepted papers will be featured on the workshop website, aiming for interdisciplinary research advancement. More info <a href="https://mlgenx.github.io/">here</a>.
-
-- title: MLGenX
-  year: 2024
-  id: mlgenx24
-  full_name: Machine Learning for Genomics Explorations at ICLR
-  link: https://mlgenx.github.io/
-  deadline: '2024-02-08 23:59:00'
-  abstract_deadline: '2024-02-08 23:59:00'
-  timezone: UTC-12
-  hybrid: false
-  place: TBD
-  date: May 11, 2024
-  start: 2024-05-11
-  end: 2024-05-11
-  hindex: None
-  sub: ML, Genomics
-  type: workshop
-  note: MLGenX aims to bridge AI and functional genomics, focusing on target identification. Topics include foundation models for genomics, biological sequence design, and interpretability. Accepted papers will be featured on the workshop website, aiming for interdisciplinary research advancement. More info <a href="https://mlgenx.github.io/">here</a>.
-
 
 - title: ML4H
   year: 2023
