@@ -1,4 +1,21 @@
 ---
+- title: Machine Learning for Healthcare
+  year: 2025
+  id: mlhc25  # title as lower case + last two digits of year
+  full_name: Machine Learning for Healthcare
+  link: https://www.mlforhc.org/paper-submission
+  deadline: '2025-04-11 23:59:00'
+  timezone: AoE
+  hybrid: false
+  place: TBD
+  date: Aug 15-16, 2025
+  start: '2025-08-15'
+  end: '2025-08-16'
+  hindex: None
+  sub: ML
+  type: conference
+  note: MLHC invites submissions for both a research track and a clinical abstract track. The conference focuses on leveraging machine learning for healthcare insights.
+  
 - title: The 9th Social Media Mining for Health Research and Applications Workshop
   year: 2024
   id: smm4h24
