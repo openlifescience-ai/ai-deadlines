@@ -3,7 +3,7 @@ description: Displays Healthcare domain conferences deadline
 author: 
 
 domain: ""
-baseurl: "/"
+baseurl: ""
 copyurl: "https://openlifescience-ai.github.io/ai-deadlines"
 
 twitter_hashtag: 

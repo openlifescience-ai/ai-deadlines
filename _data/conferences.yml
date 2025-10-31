@@ -1,20 +1,181 @@
 ---
 - title: Machine Learning for Healthcare
   year: 2025
-  id: mlhc25  # title as lower case + last two digits of year
-  full_name: Machine Learning for Healthcare
-  link: https://www.mlforhc.org/paper-submission
+  id: mlhc25
+  full_name: Machine Learning for Healthcare 2025
+  link: https://www.mlforhc.org/
   deadline: '2025-04-11 23:59:00'
   timezone: AoE
   hybrid: false
-  place: TBD
+  place: Rochester, MN, USA
   date: Aug 15-16, 2025
   start: '2025-08-15'
   end: '2025-08-16'
   hindex: None
   sub: ML
   type: conference
-  note: MLHC invites submissions for both a research track and a clinical abstract track. The conference focuses on leveraging machine learning for healthcare insights.
+  note: At Mayo Clinic. Pre-conference workshop Aug 14 with AMA/NVIDIA. Research & Clinical Abstract tracks. Proceedings in PMLR.
+
+- title: SMM4H-HeaRD
+  year: 2025
+  id: smm4h25
+  full_name: 10th Social Media Mining for Health (#SMM4H-HeaRD) 2025
+  link: https://healthlanguageprocessing.org/smm4h-2025/
+  deadline: '2025-04-21 23:59:00'
+  timezone: AoE
+  hybrid: false
+  place: Copenhagen, Denmark
+  date: June 23, 2025
+  start: '2025-06-23'
+  end: '2025-06-23'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: ICWSM 2025
+  note: Expanded scope to include health real-world data (HeaRD). 6 shared tasks covering adverse drug events, dementia caregiving, insomnia detection. Shared task papers due May 2, 2025.
+
+- title: CLPsych
+  year: 2025
+  id: clpsych25
+  full_name: 10th Workshop on Computational Linguistics and Clinical Psychology
+  link: https://clpsych.org/
+  deadline: '2025-02-16 23:59:00'
+  timezone: AoE
+  hybrid: false
+  place: Albuquerque, NM, USA
+  date: May 3, 2025
+  start: '2025-05-03'
+  end: '2025-05-03'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: NAACL 2025
+  note: Theme understanding mental health state beyond classification. Shared task registration deadline Feb 9. Extended deadline to Feb 16, 2025.
+
+- title: BioNLP
+  year: 2025
+  id: bionlp25
+  full_name: 24th Workshop on Biomedical Language Processing
+  link: https://aclweb.org/aclwiki/BioNLP_Workshop
+  deadline: '2025-05-21 23:59:00'
+  timezone: AoE
+  hybrid: false
+  place: Vienna, Austria
+  date: July 31 - Aug 1, 2025
+  start: '2025-07-31'
+  end: '2025-08-01'
+  hindex: None
+  sub: NLP
+  type: workshop
+  conf_name: ACL 2025
+  note: 25th edition with shared tasks including ClinIQLink medical QA challenge.
+
+- title: CHIL
+  year: 2026
+  id: chil26
+  full_name: Conference on Health, Inference, and Learning 2026
+  link: https://chilconference.org/
+  deadline: '2026-02-04 23:59:00'
+  timezone: AoE
+  hybrid: false
+  place: Seattle, WA, USA
+  date: Jun 28-30, 2026
+  start: '2026-06-28'
+  end: '2026-06-30'
+  hindex: None
+  sub: ML
+  type: conference
+  note: 7th Annual. Call opens Dec 10, 2025. 3 tracks Models/Methods, Applications, Impact/Society.
+
+- title: MLGenX
+  year: 2025
+  id: mlgenx25
+  full_name: Machine Learning for Genomics Explorations @ ICLR 2025
+  link: https://mlgenx.github.io/
+  deadline: '2025-02-16 23:59:00'
+  timezone: AoE
+  hybrid: false
+  place: Singapore
+  date: April 27, 2025
+  start: '2025-04-27'
+  end: '2025-04-27'
+  hindex: None
+  sub: ML
+  type: workshop
+  conf_name: ICLR 2025
+  note: Focus on genomics & drug discovery. Target identification for gene/cell therapies. Tiny papers deadline Feb 23, 2025.
+
+- title: Foundation Models for Medical Vision
+  year: 2025
+  id: fmmv25
+  full_name: 2nd Workshop on Foundation Models for Medical Vision @ CVPR 2025
+  link: https://sites.google.com/view/cv4med
+  deadline: '2025-03-22 23:59:00'
+  timezone: AoE
+  hybrid: false
+  place: Nashville, TN, USA
+  date: June 11, 2025
+  start: '2025-06-11'
+  end: '2025-06-11'
+  hindex: None
+  sub: CV
+  type: workshop
+  conf_name: CVPR 2025
+  note: Foundation models for echocardiogram, fundus, pathology, radiology imaging. International competitions.
+
+- title: CV for Drug Discovery
+  year: 2025
+  id: cvdd25
+  full_name: Computer Vision for Drug Discovery @ CVPR 2025
+  link: https://cvpr2025.thecvf.com/
+  deadline: TBA
+  timezone: AoE
+  hybrid: false
+  place: Nashville, TN, USA
+  date: Jun 11-15, 2025
+  start: '2025-06-11'
+  end: '2025-06-15'
+  hindex: None
+  sub: CV
+  type: workshop
+  conf_name: CVPR 2025
+  note: Bridging CV, AI, and life sciences. Spatial transcriptomics, cell painting applications.
+
+- title: Time-Series for Health
+  year: 2025
+  id: ts4h25
+  full_name: Learning from Time-Series for Health @ NeurIPS 2025
+  link: https://timeseriesforhealth.github.io/
+  deadline: '2025-09-05 23:59:00'
+  timezone: AoE
+  hybrid: false
+  place: San Diego, CA, USA
+  date: Dec 7, 2025
+  start: '2025-12-07'
+  end: '2025-12-07'
+  hindex: None
+  sub: ML
+  type: workshop
+  conf_name: NeurIPS 2025
+  note: Physiological waveforms, wearables, EHR time-series. Cross-domain collaboration.
+
+- title: GEM Workshop
+  year: 2025
+  id: gem25
+  full_name: Generative & Experimental Biomolecular Design @ ICLR 2025
+  link: https://gem-workshop.github.io/
+  deadline: '2025-02-23 23:59:00'
+  timezone: AoE
+  hybrid: false
+  place: Singapore
+  date: April 27, 2025
+  start: '2025-04-27'
+  end: '2025-04-27'
+  hindex: None
+  sub: ML
+  type: workshop
+  conf_name: ICLR 2025
+  note: Generative & experimental biomolecular design. Fast-track to Nature Biotechnology. Submission opens Feb 12.
   
 - title: The 9th Social Media Mining for Health Research and Applications Workshop
   year: 2024
